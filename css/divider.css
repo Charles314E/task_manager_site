@@ -1,0 +1,53 @@
+/* REG: 1805098 */
+
+/* Define containers' text color as white, and their background color as dark. Give them a margin of space so they will never touch. */
+div {
+  color: white;
+  background-color: #080808;
+  margin: 5px;
+}
+
+/* Define containers as being slightly transparent. */
+div.background {
+  opacity: 0.5;
+}
+/* Make sure 'header' containers are the only thing on their line. */
+div.header {
+  float: none;
+}
+/* Make 'navigation' containers stick to the left of the screen. Scale them based on the screen width and height. */
+div.navigation {
+  width: 25%;
+  height: 77.5vh;
+  float: left;
+}
+/* Make sure 'footer' containers are the only thing on their line. */
+div.footer {
+  width: calc(100% - 10px);
+  float: none;
+}
+/* Make 'content' containers stick to the right of the screen. Scale them based on the screen width and height. */
+div.content {
+  width: 72.5%;
+  height: 77.5vh;
+  float: right;
+}
+/* Make sure 'footer' containers hang to the right. Usually, this would move them to their own line. */
+div.footer {
+  float: right;
+}
+/* Give 'scrollable' containers their own vertical scrollbars, and make sure there is no horizonal sliding. */
+div.scrollable {
+  background-color: #000000;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* If a container is being hovered over or is active, make it yellow. */
+div:hover {
+  background-color: #404000;
+}
+/* If there is a container within another container, make it a brighter yellow to differentiate it. */
+div.scrollable:hover, div.within:hover {
+  background-color: #808000;
+}

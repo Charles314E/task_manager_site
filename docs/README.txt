@@ -1,0 +1,2 @@
+Do note that if all is working correctly, you should be able to create your own account. However, I shall provide a pre-existing account should that does not work.
+The username is 'User', and the password is 'password'. Do note that both are case sensitive.

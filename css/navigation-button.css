@@ -1,0 +1,102 @@
+/* REG: 1805098 */
+
+/* Gives certain buttons a solid border. */
+.task-button {
+  border: 2px solid;
+}
+
+/* Defines the standard look for any sort of item or input box. */
+li, input, textarea {
+  background-color: #202020;
+  border: 2px solid #383D4B;
+  color: #6A6F7D;
+  font-family: "Agency";
+  font-weight: bold;
+  margin: 5px;
+  width: 80%;
+  overflow: hidden;
+  opacity: 1;
+  position: relative;
+  top: 15px;
+}
+li:hover, input:hover, textarea:hover {
+  background-color: #101010;
+  border-color: #1F2432;
+  color: #6A6F7D;
+}
+li:active, input:active, textarea:active {
+  background-color: #0F0F0F;
+  border-color: #070919;
+  color: #6A6F7D;
+}
+
+/* Lightens textbox inputs from the standard design, but keeps their general aesthetic the same. */
+input[type=text], input[type=password], input[type=number], textarea {
+  top: 0px;    
+  margin: 0px;
+  background-color: #AFAFAF;
+  color: #6A6F7D;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=number]:hover, textarea:hover {
+  background-color: #909090;
+  color: #6A6F7D;
+}
+input[type=text]:active, input[type=password]:active, input[type=number]:active, textarea:active {
+  background-color: #808080;
+  color: #6A6F7D;
+}
+
+/* Removes the large margins for inputs that normal items have. */
+input {
+  top: 0px;
+  margin: 0px;
+}
+
+/* Gives links padding and removes their underline. This is important for certain smaller buttons. */
+a {
+    display: block;
+    color: #6A6F7D;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+  color: #6A6F7D;
+}
+a:active {
+  color: #6A6F7D;
+}
+
+/* Defines the white outline and red text for error messages. */
+li.error {
+  background-color: #202020;
+  border-color: #FFFFFF;
+  color: #FF0000;
+}
+li.error:hover {
+  background-color: #101010;
+  border-color: #E0E0E0;
+  color: #E00000;
+}
+li.error:active {
+  background-color: #0F0F0F;
+  border-color: #C0C0C0;
+  color: #C00000;
+}
+
+/* Defines list items' default colours when hovered over and selected. */
+li.selected {
+  border-color: #FFFFFF;
+}
+li.selected:hover {
+  border-color: #E0E0E0;
+}
+li.selected:active {
+  border-color: #C0C0C0;
+}
+
+/* Overrides the standard formatting when hovering over a grouped set of items. */
+.group:hover {
+}
+
+.group:active {
+}

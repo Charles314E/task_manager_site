@@ -1,0 +1,171 @@
+/* REG: 1805098 */
+
+/* NOTE: Regular buttons have an outline that is darker than their background. When hovered over or selected, they get progressively
+   darker. */
+   
+/* Red button. */
+.red-button {
+  background-color: #BB5829;
+  border-color: #892600;
+  color: #FFFFFF;
+}
+.red-button:hover {
+  background-color: #A23F10;
+  border-color: #700D00;
+  color: #FFFFFF;
+}
+.red-button:active {
+  background-color: #892600;
+  border-color: #570000;
+  color: #FFFFFF;
+}
+/* Green button. */
+.green-button {
+  background-color: #58BB29;
+  border-color: #268900;
+  color: #FFFFFF;
+}
+.green-button:hover {
+  background-color: #3FA210;
+  border-color: #0D7000;
+  color: #FFFFFF;
+}
+.green-button:active {
+  background-color: #268900;
+  border-color: #005700;
+  color: #FFFFFF;
+}
+/* Dark blue button. */
+.blue-button {
+  background-color: #2958BB;
+  border-color: #002689;
+  color: #FFFFFF;
+}
+.blue-button:hover {
+  background-color: #103FA2;
+  border-color: #000D70;
+  color: #FFFFFF;
+}
+.blue-button:active {
+  background-color: #002689;
+  border-color: #000057;
+  color: #FFFFFF;
+}
+/* Yellow button. */
+.yellow-button {
+  background-color: #BBBB29;
+  border-color: #898900;
+  color: #FFFFFF;
+}
+.yellow-button:hover {
+  background-color: #A2A210;
+  border-color: #707000;
+  color: #FFFFFF;
+}
+.yellow-button:active {
+  background-color: #898900;
+  border-color: #575700;
+  color: #FFFFFF;
+}
+/* Cyan button. */
+.cyan-button {
+  background-color: #29BBBB;
+  border-color: #008989;
+  color: #FFFFFF;
+}
+.cyan-button:hover {
+  background-color: #10A2A2;
+  border-color: #007070;
+  color: #FFFFFF;
+}
+.cyan-button:active {
+  background-color: #008989;
+  border-color: #005757;
+  color: #FFFFFF;
+}
+/* Pink/magenta button. */
+.magenta-button {
+  background-color: #BB29BB;
+  border-color: #890089;
+  color: #FFFFFF;
+}
+.magenta-button:hover {
+  background-color: #A210A2;
+  border-color: #700070;
+  color: #FFFFFF;
+}
+.magenta-button:active {
+  background-color: #890089;
+  border-color: #570057;
+  color: #FFFFFF;
+}
+/* Grey button. */
+.grey-button {
+  background-color: #898989;
+  border-color: #575757;
+  color: #FFFFFF;
+}
+.grey-button:hover {
+  background-color: #707070;
+  border-color: #3E3E3E;
+  color: #FFFFFF;
+}
+.grey-button:active {
+  background-color: #575757;
+  border-color: #252525;
+  color: #FFFFFF;
+}
+/* Black button. */
+.black-button {
+  background-color: #575757;
+  border-color: #252525;
+  color: #FFFFFF;
+}
+.black-button:hover {
+  background-color: #3E3E3E;
+  border-color: #0C0C0C;
+  color: #FFFFFF;
+}
+.black-button:active {
+  background-color: #252525;
+  border-color: #000000;
+  color: #FFFFFF;
+}
+
+/* These classes give buttons different icons as their background images. See the 'images' folder for all icons. */
+.add-new {
+  background-image: url("../images/icon_add.png");
+}
+.edit {
+  background-image: url("../images/icon_edit.png");
+}
+.save {
+  background-image: url("../images/icon_save.png");
+}
+.delete {
+  background-image: url("../images/icon_delete.png");
+}
+.order-by-date {
+  background-image: url("../images/icon_orderby_date.png");
+}
+.order-by-name {
+  background-image: url("../images/icon_orderby_name.png");
+}
+.order-by-priority {
+  background-image: url("../images/icon_orderby_priority.png");
+}
+.show-all {
+  background-image: url("../images/icon_show.png");
+}
+.show-completed {
+  background-image: url("../images/icon_completed.png");
+}
+.show-almostdue {
+  background-image: url("../images/icon_almostdue.png");
+}
+.show-overdue {
+  background-image: url("../images/icon_overdue.png");
+}
+.logout {
+  background-image: url("../images/icon_logout.png");
+}

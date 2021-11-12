@@ -1,0 +1,25 @@
+/* REG: 1805098 */
+
+/* Defines how much space an informational message should receive to allow it to display its icon. */
+p.message {
+  padding: 6px;
+  margin: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Defines an 'okay' message as green. */
+p.ok {
+  background-image: url("../images/icon_ok.png");
+  color: #1FE720;
+}
+/* Defines a 'warning' message as orange. */
+p.warning {
+  background-image: url("../images/icon_warning.png");
+  color: #E7B920;
+}
+/* Defines an 'error' message as red. */
+p.error {
+  background-image: url("../images/icon_error.png");
+  color: #E72720;
+}

@@ -1,0 +1,19 @@
+/* REG: 1805098 */
+
+/* The grey backing to the 'complete' and 'overdue' bars. */
+div.back-bar {
+  left: -12%;
+  width: 100%;
+  position: relative;
+  top: 15px;
+  opacity: 0.75;
+  background-color: #202020;
+}
+/* Makes sure progress bars align properly with their backing. Sets their default color to white. */
+div.progress-bar {
+   position: relative;
+   left: -5px;
+   color: #FFFFFF;
+   opacity: 1;
+   text-align: center;
+}

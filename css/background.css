@@ -1,0 +1,25 @@
+/* REG: 1805098 */
+
+/* The main header. What you see at the top of the page. */
+h1.header {
+  padding: 10px;
+  margin: 0px;
+  font-family: "OCR";
+  text-align: center;
+}
+/* A section subheader. What you see above a line divider at the top of a container. */
+h2.subheader {
+  padding: 10px;
+  margin: 0px;
+  font-family: "OCR";
+  text-align: center;
+  font-size: 200%;
+  position: relative;
+  top: 15px;
+}
+/* The background image. */
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-color: #FFFFFF;
+}

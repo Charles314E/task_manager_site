@@ -1,0 +1,148 @@
+/* REG: 1805098 */
+
+/* Makes sure buttons are not dictated by text flow, and that they have their images fitted to their size. */
+.button {
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Defines a 'completed' list item's green font and border. */
+li.completed {
+  background-color: #202020;
+  border-color: #5B7744;
+  color: #5B7744;
+}
+li.completed:hover {
+  background-color: #101010;
+  border-color: #425E2B;
+  color: #425E2B;
+}
+li.completed:active {
+  background-color: #0F0F0F;
+  border-color: #294512;
+  color: #425E2B;
+}
+/* Defines an 'almost due' list item's orange font and border. */
+li.almost-due {
+  background-color: #202020;
+  border-color: #CDAA00;
+  color: #CDAA00;
+}
+li.almost-due:hover {
+  background-color: #101010;
+  border-color: #B49100;
+  color: #B49100;
+}
+li.almost-due:active {
+  background-color: #0F0F0F;
+  border-color: #9B7800;
+  color: #9B7800;
+}
+/* Defines an 'overdue' list item's red font and border. */
+li.overdue {
+  background-color: #202020;
+  border-color: #AC3E12;
+  color: #AC3E12;
+}
+li.overdue:hover {
+  background-color: #101010;
+  border-color: #932512;
+  color: #932512;
+}
+li.overdue:active {
+  background-color: #0F0F0F;
+  border-color: #7A0C06;
+  color: #932512;
+}
+/* Defines a task box's darker hue. */
+div.task-box {
+  background-color: #000000;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 37px;
+  left: 95%;
+}
+/* If a task box is being interacted with, turn it yellow. */
+.task-box:hover {
+  background-color: #545400;
+}
+.task-box:active {
+  background-color: #3B3B00;
+}
+/* Define the task's status slot. */
+div.hidden-box {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 37px;
+  left: 95%;
+}
+.hidden-box:hover {
+  background-color: #545400;
+}
+.hidden-box:active {
+  background-color: #3B3B00;
+}
+
+/* Define the task button's attributes. */
+.task-button {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+/* Define the task item's attributes. */
+.task {
+  opacity: 1;
+  padding: 5px;
+  width: 90%;
+}
+
+/* Hide a non-interacted hidden item. */
+.hidden {
+  display: none;
+}
+/* If the parent item is being hovered over, show the hidden item. */
+.task:hover ul.hidden {
+  display: block;
+}
+.nav-button:hover ul.hidden {
+  display: block;
+}
+/* Define the task's status icon and make it incorporeal to pointer events (hover, active, etc.). */
+div.check {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 39px;
+  left: 95%;
+  margin-left: 7px;
+  opacity: 1;
+  background-size: contain;
+  pointer-events: none;
+}
+/* Define the task's 'complete' check as green. */
+div.check.completed {
+  background-image: url("../images/icon_completed.png");
+  background-color: #5B7744;
+}
+/* Define the task's 'almost due' check as orange. */
+div.check.almost-due {
+  background-image: url("../images/icon_almostdue.png");
+  background-color: #CDAA00;
+}
+/* Define the task's 'overdue' check as red. */
+div.check.overdue {
+  background-image: url("../images/icon_overdue.png");
+  background-color: #AC3E12;
+}
+/* Define the set the 'expand' arrow's direction. */
+div.expand-down {
+  background-image: url("../images/icon_expand_down.png");
+}
+div.expand-up {
+  background-image: url("../images/icon_expand_up.png");
+}
